@@ -51,7 +51,7 @@ $result = $conn->query($query);
     <div class="container-fluid">
         <!-- Page Heading -->
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Dashboard<small style = "color: #503C3C">/Repairs
+            <h1 class="h3 mb-0 text-gray-800">Dashboard<small style = "color: #116D6E">/Repairs
             </small></h1>
         </div>
 
@@ -64,6 +64,7 @@ $result = $conn->query($query);
                                 <tr>
                                     <th>First name</th>
                                     <th>Last name</th>
+                                    <th>user name</th>
                                     <th>Email</th>
                                     <th>Phone number</th>
                                     <th>Problem for repair</th>
@@ -80,6 +81,7 @@ $result = $conn->query($query);
                                     <tr>
                                         <td><?php echo $row['firstname']; ?></td>
                                         <td><?php echo $row['lastname']; ?></td>
+                                        <td><?php echo $row['username']; ?></td>
                                         <td><?php echo $row['email']; ?></td>
                                         <td><?php echo $row['phonenumber']; ?></td>
                                         <td><?php echo $row['repairproblem']; ?></td>

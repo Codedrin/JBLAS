@@ -51,7 +51,7 @@ include('navbar.php');?>
                    
                             <!-- Pending Requests -->
                             <div class="col-xl-3 col-md-6 mb-4 offset-xl-1 offset-md-0">
-                                <a href="#" class="card-link">
+                                <a href="repairs.php" class="card-link">
                                     <div class="card border-left-primary shadow h-100 py-2 margin ">
                                         <div class="card-body">
                                             <div class="row no-gutters align-items-center">

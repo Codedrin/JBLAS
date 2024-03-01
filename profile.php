@@ -1,8 +1,7 @@
 <?php
 session_start();
-//fetch the data from user login on anpower and also display na name on the top left on the corner
+//no backend pa to fetch the data of the user wala kasi ako login dinako gumawa
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -43,6 +42,13 @@ session_start();
                             <div class="col-md-12">
                                 <p><strong>Last Name:</strong></p>
                             </div>
+                            
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-md-12">
+                                <p><strong>username:</strong></p>
+                            </div>
+                            
                         </div>
                         <div class="row mb-3">
                             <div class="col-md-12">
@@ -62,7 +68,10 @@ session_start();
                         <div class="row mb-3">
                             <div class="col-md-12">
                                 <p><strong>Address:</strong></p>
+                                <a href="update_profile.php" style="color: gray" ><i class="fas fa-edit"></i></a>
+                                
                             </div>
+                 
                         </div>
                     </div>
                 </div>

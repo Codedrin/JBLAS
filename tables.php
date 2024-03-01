@@ -26,13 +26,14 @@ $result = $conn->query($query);
                         <tr>
                             <th>First name</th>
                             <th>Last name</th>
+                            <th>username</th>
                             <th>Email</th>
                             <th>Phone number</th>
                             <th>Problem for repair</th>
                             <th>Home visit</th>
                             <th>Visit for repair</th>
                             <th>Status</th>
-                            <!-- Remove the "Action" column -->
+                     
                         </tr>
                     </thead>
                     <tbody>
@@ -42,6 +43,7 @@ $result = $conn->query($query);
                             <tr class="<?php echo $row['status'] == 1 ? 'd-none' : ''; ?>">
                                 <td><?php echo $row['firstname']; ?></td>
                                 <td><?php echo $row['lastname']; ?></td>
+                                <td><?php echo $row['username']; ?></td>
                                 <td><?php echo $row['email']; ?></td>
                                 <td><?php echo $row['phonenumber']; ?></td>
                                 <td><?php echo $row['repairproblem']; ?></td>
@@ -85,14 +87,14 @@ $result = $conn->query($query);
                                 });
                             }
 
-                            // Function to remove row from table
+                            
                             function removeRow(row) {
                                 row.fadeOut('slow', function() {
                                     row.remove();
                                 });
                             }
 
-                            // Initial call to update pending count on page load
+                        
                             updatePendingCount();
 
                             // Set interval to update pending count every 5 seconds (3000 milliseconds)

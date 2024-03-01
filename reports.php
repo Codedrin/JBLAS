@@ -33,7 +33,7 @@
     <div class="container-fluid">
         <!-- Page Heading -->
         <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Dashboard<small style = "color: #503C3C">/Reports</small></h1>
+            <h1 class="h3 mb-0 text-gray-800">Dashboard<small style = "color: #116D6E">/Reports</small></h1>
         </div><div class="row justify-content-center mb-5">
     <!-- Form Column -->
     <div class="col-md-8">
@@ -47,6 +47,8 @@
                             <input type="text" id="fname" name="fname" class="form-control mb-3" required autocomplete="given-name">
                             <label for="lname">Last Name *</label><br>
                             <input type="text" id="lname" name="lname" class="form-control mb-3" required autocomplete="family-name">
+                            <label for="username">username *</label><br>
+                            <input type="text" id="username" name="username" class="form-control mb-3" required autocomplete="family-name">
                             <label for="phone">Phone Number *</label><br>
                             <input type="tel" id="phone" name="phone" class="form-control mb-3" required autocomplete="tel">
                             <label for="email">Email *</label><br>

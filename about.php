@@ -54,6 +54,11 @@
             font-size: 1rem;
             color: #6c757d;
         }
+        .card-title{
+            color: #4E3636;
+            font-weight: bold;
+        }
+        
     </style>
 </head>
 <body>

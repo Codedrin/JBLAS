@@ -7,6 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
+    $username = $_POST['username'];
     $phone = $_POST['phone'];
     $address = $_POST['address'];
     $home_visit = $_POST['home_visit'];
@@ -16,9 +17,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email']; // Adding the email field here
 
     // Check if the entry already exists
-    $stmt = $conn->prepare("SELECT * FROM reports WHERE firstname = :fname AND lastname = :lname AND phonenumber = :phone AND address = :address AND homevisit = :home_visit AND repairvisit = :visit_repair AND email = :email AND cash = :cash AND materials = :materials");
+    $stmt = $conn->prepare("SELECT * FROM reports WHERE firstname = :fname AND lastname = :lname AND username = :username AND phonenumber = :phone AND address = :address AND homevisit = :home_visit AND repairvisit = :visit_repair AND email = :email AND cash = :cash AND materials = :materials");
     $stmt->bindParam(':fname', $fname);
     $stmt->bindParam(':lname', $lname);
+    $stmt->bindParam(':username', $username);
     $stmt->bindParam(':phone', $phone);
     $stmt->bindParam(':address', $address);
     $stmt->bindParam(':home_visit', $home_visit);
@@ -33,9 +35,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<script>alert('This entry already exists.')</script>";
     } else {
         // Entry does not exist, insert into database
-        $stmt = $conn->prepare("INSERT INTO reports (firstname, lastname, phonenumber, address, homevisit, repairvisit, email, cash, materials) VALUES (:firstname, :lastname, :phonenumber, :address, :homevisit, :repairvisit, :email, :cash, :materials)");
+        $stmt = $conn->prepare("INSERT INTO reports (firstname, lastname, username, phonenumber, address, homevisit, repairvisit, email, cash, materials) VALUES (:firstname, :lastname, :username, :phonenumber, :address, :homevisit, :repairvisit, :email, :cash, :materials)");
         $stmt->bindParam(':firstname', $fname);
         $stmt->bindParam(':lastname', $lname);
+        $stmt->bindParam(':username', $username);
         $stmt->bindParam(':phonenumber', $phone);
         $stmt->bindParam(':address', $address);
         $stmt->bindParam(':homevisit', $home_visit);
