@@ -53,7 +53,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/windowrepair.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Window Glass Installation <span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/window_glass.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Window Glass Installation <span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
@@ -68,7 +68,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/cabinet.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Cabinet Installation <span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/cabinet_installation.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Cabinet Installation <span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
@@ -83,7 +83,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/securityinstallation.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Security Installation <span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/security_installation.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Security Installation <span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>

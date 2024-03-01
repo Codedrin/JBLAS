@@ -112,7 +112,8 @@ $result = $conn->query($query);
         </div>
     </div>
     
-    <?php include('footer.php'); ?>
+    </div>
 
 </body>
 </html>
+<?php include('footer.php'); ?>

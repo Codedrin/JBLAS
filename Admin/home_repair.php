@@ -55,7 +55,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/celling.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Celling Renovation<span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/celling.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Celling Renovation<span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
@@ -70,7 +70,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/painting.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Wall Painting <span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/wallpainting.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Wall Painting <span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
@@ -85,7 +85,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/flooring.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Flooring Renovation<span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/floor_renovation.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Flooring Renovation<span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
@@ -100,7 +100,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/windowrepair.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Window Repair <span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/window_glass.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Window Repair <span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
@@ -116,7 +116,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/gardenlandscaping.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Garden Landscaping <span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/garden_landscaping.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Garden Landscaping <span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
@@ -131,7 +131,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/doorrepair.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Door Renovation <span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/door_renovation.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Door Renovation <span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>

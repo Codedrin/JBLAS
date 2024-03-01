@@ -52,7 +52,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/electrical.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Electrical Wiring<span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/electrical_service.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Electrical Wiring<span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
@@ -67,7 +67,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/plumbing.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3" ></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Plumbing <span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/plumbing.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Plumbing <span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
@@ -83,7 +83,7 @@ include('../dbcon.php');
                                 <img src="../Admin/img/waterpipe.jpg" alt="electrical" class="img-fluid" style = "border-radius: 5px; width: 260px; height: 127px;">
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800 mt-3"></div>
-                            <a href="#" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Water Pipes Repair<span class="badge bg-danger" id="pending-count"></span></a>
+                            <a href="../Admin/waterpipes_repair.php" class="btn btn-sm btn-block" style="background-color: #76453B; color:white;">Water Pipes Repair<span class="badge bg-danger" id="pending-count"></span></a>
                             <!-- Display pending count here -->
                         </div>
                     </div>
